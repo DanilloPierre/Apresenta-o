@@ -17,13 +17,17 @@ body{
 }   
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between  ;
 }
 .apresentacao__conteudo{
 width: 615px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+
 }
 .apresentacao__conteudo__titulo{
     font-size: 36px;
@@ -49,4 +53,9 @@ width: 615px;
     color: black;
     font-family: "Montserrat", serif;
 
+}
+.apresentacao__imagem{
+    margin-right: 1000px;
+    width: 100px; 
+    height: 200px;
 }
